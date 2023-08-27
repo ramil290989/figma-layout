@@ -93,13 +93,22 @@
   </section>
 
   <section class="border">
+    <div id="modal1" class="modal">
+      <div class="modal-content">
+        <h4>Самые умные проекты</h4>
+        <p>Реализуем самые смелые решения</p>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-close waves-effect waves-red btn-flat">Закрыть</a>
+      </div>
+    </div>
     <div class="container">
       <div class="border-flex">
         <div class="border__text">
           <h4 class="border__h4">Самые умные проекты</h4>
           <h5 class="border__h5">Реализуем самые смелые решения в России!</h5>
         </div>        
-        <button class="border__button">
+        <button class="modal-trigger border__button" data-target="modal1">
           <img class="border-button-img" src="img/svg/envelope.svg" alt="envelope">
           <span class="border-button-text">Ваш запрос</span>
         </button>
@@ -142,28 +151,28 @@
   <section class="portfolio">
     <div class="portfolio__grid">
       <div class="portfolio__grid-item">
-        <img class="portfolio__img" src="img/portfolio.jpg" alt="portfolio">
+        <img class="portfolio__img materialboxed" src="img/portfolio.jpg" alt="portfolio">
       </div>
       <div class="portfolio__grid-item">
-        <img class="portfolio__img" src="img/portfolio.jpg" alt="portfolio">
+        <img class="portfolio__img materialboxed" src="img/portfolio.jpg" alt="portfolio">
       </div>
       <div class="portfolio__grid-item">
-        <img class="portfolio__img" src="img/portfolio.jpg" alt="portfolio">
+        <img class="portfolio__img materialboxed" src="img/portfolio.jpg" alt="portfolio">
       </div>
       <div class="portfolio__grid-item">
-        <img class="portfolio__img" src="img/portfolio.jpg" alt="portfolio">
+        <img class="portfolio__img materialboxed" src="img/portfolio.jpg" alt="portfolio">
       </div>
       <div class="portfolio__grid-item">
-        <img class="portfolio__img" src="img/portfolio.jpg" alt="portfolio">
+        <img class="portfolio__img materialboxed" src="img/portfolio.jpg" alt="portfolio">
       </div>
       <div class="portfolio__grid-item">
-        <img class="portfolio__img" src="img/portfolio.jpg" alt="portfolio">
+        <img class="portfolio__img materialboxed" src="img/portfolio.jpg" alt="portfolio">
       </div>
       <div class="portfolio__grid-item">
-        <img class="portfolio__img" src="img/portfolio.jpg" alt="portfolio">
+        <img class="portfolio__img materialboxed" src="img/portfolio.jpg" alt="portfolio">
       </div>
       <div class="portfolio__grid-item">
-        <img class="portfolio__img" src="img/portfolio.jpg" alt="portfolio">
+        <img class="portfolio__img materialboxed" src="img/portfolio.jpg" alt="portfolio">
       </div>
     </div>
   </section>
@@ -245,13 +254,23 @@
   </section>
 
   <section class="border">
+    <div id="modal2" class="modal modal-fixed-footer">
+      <div class="modal-content">
+        <h4>Хотите с нами работать?</h4>
+        <p>Оставьте заявку и мы свяжемся с вами!</p>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-close waves-effect waves-green btn-flat">Оставить заявку</a>
+        <a href="#!" class="modal-close waves-effect waves-red btn-flat">Закрыть</a>
+      </div>
+    </div>
     <div class="container">
       <div class="border-flex">
         <div class="border__text">
           <h4 class="border__h4">Хотите с нами работать?</h4>
           <h5 class="border__h5">Оставьте заявку и мы свяжемся с вами!</h5>
         </div>        
-        <button class="border__button">
+        <button class="modal-trigger border__button" data-target="modal2">
           <img class="border-button-img" src="img/svg/envelope.svg" alt="envelope">
           <span class="border-button-text">Ваш запрос</span>
         </button>
